@@ -1,0 +1,49 @@
+Principais comandos do GIT
+
+git config
+Configure o nome do autor e o endereço de e-mail a serem usados 
+​​com seus commits.
+
+exemplos:
+git config --global user.name "marcelo.ferreira"
+git config --global user.email marcelo.ferreira@example.com
+
+####################################################################
+
+git init
+Inicia a instalação dentro de um ponto especifico de sua maquina.
+
+exemplos:
+git init C:/Users/marcelo.ferreira/Documents
+
+#####################################################################
+
+ git add
+ Adicionar um ou mais arquivos ao teste (índice)
+ 
+exemplos:
+git add teste.txt
+
+#####################################################################
+
+git commit
+Confirme as alterações no head (mas ainda não no repositório remoto):
+
+git commit -m "Commit message"
+
+#####################################################################
+
+git hist - verificar estado do commit
+
+git HEAD -  verifica o valor do HEAD atual
+
+git revert HEAD --no-edit - reverte o commit com a mensagem do commit 
+
+git revert HEAD~1 ou HEAD~2
+
+
+
+
+
+
+
